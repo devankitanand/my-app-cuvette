@@ -1,38 +1,241 @@
-.App {
-  text-align: center;
+.headerwrap{
+  display: flex;
+  width: auto;
+  height: 80px;
+  padding: 0 50px;
+  align-items: center;
+  justify-content: space-between;
+}
+.contact{
+  color: #576474;
+  font-family: DM Sans;
+  font-size: 22px;
+  font-weight: 500;
+  padding-right: 50px;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* signup */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.signupwarp{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 200px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.content{
+  width: 450px;
+ color: #292929B2;
+  font-weight: 500;
+}
+.signupbox{
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 25px 20px ;
+  width: 400px;
+  border-radius: 10px;
+  border: 1px solid #509efe;
+}
+.signupheading{
+  color: black;
+  font-weight: 600;
+  font-size: 28px;
+
+}
+.signupdesc{
+  margin-top: 10px;
+  color: #292929B2;
+  font-size: 14px;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+
+/* input */
+.inputwarper{
+  margin: 10px 0;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  width: 380px;
+  height: 35px;
+  border: 1px solid #CCCCCC;
+  border-radius: 5px;
+  background: #F4F4F4;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.inputfield{
+  margin-left: 10px;
+  width: 85%;
+  height: 80%;
+  border: none;
+  background: #F4F4F4;
+}
+.inputfield:focus{
+  border: none;
+  outline: none;
+}
+.inputfield::placeholder{
+  color: #767676;
+  font-size: 16px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.center{
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 700;
+  color: #292929B2;
+  margin-top: 30px;
+}
+
+.center2{
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 700;
+  color: #292929B2;
+}
+.submit{
+  margin-top: 20px;
+  background-color: #0B66EF;
+  width: 100%;
+  color: #ffffff;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  font-weight: 500;
+}
+
+.otp{
+  width: 80%;
+}
+
+.verifybtn{
+  margin-top: 3px;
+}
+
+.userinfo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 40px;
+  border: 1px solid #7d7d7d;
+  border-radius: 5px;
+}
+.wrapperuserinfo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.username{
+  padding: 0 5px;
+}
+.usericon{
+  margin-top: 3px;
+}
+.homewrap{
+  display: flex;
+  width: auto;
+  height: 90dvh;
+  border-top: 1px solid #d8d8d8;
+}
+.homeleft{
+  display: flex;
+  justify-content: center;
+  width: 5%;
+  /* background-color: #509efe; */
+  border-right: 1px solid #d8d8d8;
+}
+.homeright{
+  width: 95%;
+  /* background-color: aqua; */
+}
+.homeicon{
+  margin-top: 20px;
+}
+.interviewbtn{
+  margin: 20px 0 0 20px;
+  background-color: #0B66EF;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* job fields */
+
+.jobform{
+  padding: 20px 40px;
+}
+
+.jobfields{
+  display: flex;
+  align-items: center;
+}
+
+.jobtitle{
+  margin-left: 94px;
+}
+
+.desc{
+  height: 150px;
+  margin-left: 40px;
+}
+.inputdesc{
+  height: 90%;
+  width: 90%;
+  border: none;
+  background-color: #F4F4F4 ;
+}
+
+.inputdesc:focus{
+border: none;
+outline: none;
+}
+
+.explevel{
+  margin-left: 28px;
+}
+.selection{
+  width: 100%;
+  height: 100%;
+  background-color: #F4F4F4;
+  outline: none;
+  border: none;
+}
+.candidateEmail{
+  width: 100%;
+  height: 90%;
+  background-color: #F4F4F4;
+  outline: none;
+  border: none;
+}
+
+.cemail{
+  margin-left: 32px;
+}
+.enddate{
+  
+  margin-left: 83px;
+}
+
+.send{
+  background-color: #0B66EF;
+  color: #ffffff;
+  border: none;
+  padding: 10px 40px;
+  border-radius: 5px;
+}
+.enddd{
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border: none;
+  background-color: #F4F4F4;
 }
