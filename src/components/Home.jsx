@@ -122,7 +122,7 @@ const Home = () => {
                           placeholder="Enter candidate email"
                           value={email}
                           onChange={(e) => handleEmailChange(index, e.target.value)}
-                          required
+                          
                         />
                       ))}
                       <button type="button" onClick={addCandidateEmail} className="addemailbtn">
